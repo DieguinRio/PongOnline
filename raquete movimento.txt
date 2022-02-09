@@ -1,0 +1,2 @@
+- mover para cima e para baixo a uma certa velocidade
+- distinguir entre jogador e i.a
