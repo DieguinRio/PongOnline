@@ -34,6 +34,10 @@ func _physics_process(delta):
 			
 			if hitcounter < max_hitcounter:
 				hitcounter += 1
+			
+			$RacketSound.play()
+		else:
+			$WallSound.play()
 
 func reset():
 	position = Vector2(512, 256)

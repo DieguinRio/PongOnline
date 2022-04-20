@@ -36,6 +36,7 @@ wait_time = 3.0
 one_shot = true
 
 [node name="HUD" parent="." instance=ExtResource( 7 )]
+pause_mode = 0
 
 [node name="FinalScreen" parent="." instance=ExtResource( 8 )]
 visible = false

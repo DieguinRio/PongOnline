@@ -18,7 +18,6 @@ func _process(delta):
 	if $StartTimer.time_left > 1:
 		hud.get_node("CountdownContainer/CenterContainer/ActionText").set_text(str(round($StartTimer.time_left)))
 
-
 func _on_Campo_goal_left():
 	score_player_two += 1
 	update_score()

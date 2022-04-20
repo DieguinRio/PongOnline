@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/PongWall.wav-581c76a543ed6de82b2c85e84b0780c8.sample"
+
+[deps]
+
+source_file="res://entities/Bolinha/PongWall.wav"
+dest_files=[ "res://.import/PongWall.wav-581c76a543ed6de82b2c85e84b0780c8.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
