@@ -214,6 +214,19 @@ p {
   animation: text_reveal .5s ease forwards;
   animation-delay: 1ss;
 }
+#hero .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: greenyellow;
+  background-color: transparent;
+  border: 2px solid greenyellow;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+  transition: .3s ease;
+  transition-property: background-color, color;
+}
 #hero h1:nth-child(1){
   animation-delay: 1s;
 }
@@ -230,7 +243,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: greenyellow;
+  background-color: blue;
   animation: text_reveal_box 1s ease;
   animation-delay: .3s;
 }
